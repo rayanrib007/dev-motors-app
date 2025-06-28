@@ -18,10 +18,10 @@
   <body>
     <header class="header">
       <div class="header-container">
+        <a href="/" class="nav-logo">
+          <span>Dev Motors</span>
+        </a>
         <nav class="nav">
-          <a href="/" class="nav-logo">
-            <span>Dev Motors</span>
-          </a>
           <ul class="nav-list">
             <li><a href="/">HOME</a></li>
             <li><a href="/#about">SOBRE</a></li>
@@ -29,19 +29,126 @@
             <li><a href="/#contact">CONTATO</a></li>
           </ul>
         </nav>
+        <div class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-list "
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
       </div>
     </header>
-    <main class="container-main">
-      <nav>
-        <ul class="nav-page-list">
-          <li><a href="/pages/oil-change">Troca de óleo</a></li>
-          <li>
-            <a href="/pages/preventive-maintenance/">Manutenção preventiva</a>
-          </li>
-          <li><a href="/pages/alignment/">Alinhamento</a></li>
-          <li><a href="/pages/tire-change/">Troca de pneus</a></li>
+      <div class="mobile-menu">
+        <div class="mobile-menu-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+          </svg>
+        </div>
+        <nav>
+          <ul class="mobile-menu-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#about">Sobre</a></li>
+            <li><a href="/#services">Serviços</a></li>
+            <li><a href="/#contact">Contato</a></li>
+            <li><a href="/pages/preventive-maintenance/">Manutenção preventiva</a></li>
+            <li><a href="/pages/oil-change">Troca de óleo</a></li>
+            <li><a href="/pages/alignment/">Alinhamento</a></li>
+            <li><a href="/pages/tire-change/">Troca de pneus</a></li>
+          </ul>
+        </nav>
         </ul>
-      </nav>
-    </main>
+      </div>
+      <section class="container-page">
+        <main class="container-main">
+          <nav>
+            <ul class="nav-page-list">
+              <li><a href="/pages/oil-change">Troca de óleo</a></li>
+              <li><a href="/pages/preventive-maintenance/">Manutenção preventiva</a></li>
+              <li><a href="/pages/alignment/">Alinhamento</a></li>
+              <li><a href="/pages/tire-change/">Troca de pneus</a></li>
+            </ul>
+          </nav>
+          <section class="hero">
+            <div class="hero-contentBanner">
+              <img class="hero-image" src="./images/background.jpg" alt="Manutenção automotiva" />
+              <div class="hero-container">
+                <h1 class="hero-title">Manutenção automotiva de qualidade para seu carro</h1>
+                <a class="hero-button"> Saiba mais</a>
+              </div>
+            </div>
+          </section>
+          <section class="about">
+            <div class="about-content">
+              <h2 id="about">Sobre</h2>
+              <p>Nossa oficina mecânica oferece serviços especializados em manutenção e reparo de veículos, garantindo qualidade e segurança. Realizamos troca de óleo, alinhamento e balanceamento, revisão completa, diagnóstico eletrônico, conserto de motor e suspensão. Priorizamos agilidade, transparência e a satisfação do cliente. Venha nos visitar e confira!</p>
+              </div>
+            <div>
+              <img style="width: 100%;" src="./images/imgmotors.png" alt="Troca de óleo automotiva">
+            </div>
+          </section>
+          <section>
+            <div class="services-content">
+              <h2 id="services">Conheça nossos serviços</h2>
+            </div>
+            <div class="services-cards-container">
+              <article class="service-card">
+                <h3>Troca de pneus</h3>
+                <div class="servide-inner-card">
+                  <img class="imageService" src="./images/img1.jpg" alt="Alinhamento automotivo">
+                </div>
+              </article>
+              <article class="service-card">
+                <h3>Alinhamento</h3>
+                  <div class="servide-inner-card">
+                    <img class="imageService" src="./images/img2.jpg" alt="Alinhamento automotivo">
+                  </div>
+              </article>
+              <article class="service-card">
+                <h3>Manutenção preventiva</h3>
+                  <div class="servide-inner-card">
+                    <img class="imageService" src="./images/img3.jpg" alt="Alinhamento automotivo">
+                  </div>
+              </article>
+              <article class="service-card">
+                <h3>Troca de óleo</h3>
+                  <div class="servide-inner-card">
+                    <img class="imageService" src="./images/img4.jpg" alt="Troca de óleo">
+                  </div>
+              </article>
+            </div>
+            <section class="contact-section">
+              <div class="contact-container">
+                <div class="contact-content">
+                  <h2 id="contact">Contato</h2>
+                  <p>Entre em contato conosco para agendar uma visita ou solicitar um orcamento.</p>
+                </div>
+                <div class="contact-form">
+                  <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </section>
+          </section>
+        </main>
+      </section>
+    <footer>
+      <p>&copy; 2025 Manutenção automotiva. Todos os direitos reservados.</p>
+    </footer>
   </body>
+  <script src="./js/index.js" defer></script>
 </html>

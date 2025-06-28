@@ -18,10 +18,10 @@
   <body>
     <header class="header">
       <div class="header-container">
+        <a href="/" class="nav-logo">
+          <span>Dev Motors</span>
+        </a>
         <nav class="nav">
-          <a href="/" class="nav-logo">
-            <span>Dev Motors</span>
-          </a>
           <ul class="nav-list">
             <li><a href="/">HOME</a></li>
             <li><a href="/#about">SOBRE</a></li>
@@ -29,19 +29,51 @@
             <li><a href="/#contact">CONTATO</a></li>
           </ul>
         </nav>
+        <div class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-list "
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
       </div>
     </header>
+      <div class="mobile-menu">
+        <div class="mobile-menu-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+          </svg>
+        </div>
+        <ul class="mobile-menu-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/#about">Sobre</a></li>
+          <li><a href="/#services">Serviços</a></li>
+          <li><a href="/#contact">Contato</a></li>
+          <li><a href="/pages/preventive-maintenance/">Manutenção preventiva</a></li>
+          <li><a href="/pages/oil-change">Troca de óleo</a></li>
+          <li><a href="/pages/alignment/">Alinhamento</a></li>
+          <li><a href="/pages/tire-change/">Troca de pneus</a></li>
+        </ul>
+        </ul>
+      </div>
     <main class="container-main">
       <nav>
         <ul class="nav-page-list">
           <li><a href="/pages/oil-change">Troca de óleo</a></li>
-          <li>
-            <a href="/pages/preventive-maintenance/">Manutenção preventiva</a>
-          </li>
+          <li><a href="/pages/preventive-maintenance/">Manutenção preventiva</a></li>
           <li><a href="/pages/alignment/">Alinhamento</a></li>
           <li><a href="/pages/tire-change/">Troca de pneus</a></li>
         </ul>
       </nav>
     </main>
   </body>
+  <script src="../../js/index.js" defer></script>
 </html>
