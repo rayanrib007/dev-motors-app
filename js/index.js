@@ -98,10 +98,8 @@ form.addEventListener("submit", (e) => {
   clearFormErrorMessages();
   e.preventDefault();
   if (!validateForm()) return;
-  const confirmAlert = confirm(
-    "Clique em OK para confirmar o envio do formulário."
+  alert(
+    "Formulario enviado com sucesso! Em breve entraremos em contato com você."
   );
-  if (confirmAlert) {
-    location.reload();
-  }
+  location.replace("/");
 });
