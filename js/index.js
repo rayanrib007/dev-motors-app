@@ -15,7 +15,7 @@ const heroButton = document.querySelector(".hero-button");
 function redirectToWhatsapp() {
   const phoneNumber = "5535998907857";
   const message =
-    "Olá, gostaria de saber mais sobre o serviços de manutenção outomotiva.";
+    "Olá, gostaria de saber mais sobre o serviços de manutenção automotiva.";
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`;
@@ -99,7 +99,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   if (!validateForm()) return;
   alert(
-    "Formulario enviado com sucesso! Em breve entraremos em contato com você."
+    "Formulário enviado com sucesso! Em breve entraremos em contato com você."
   );
   location.replace("/");
 });
