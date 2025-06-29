@@ -51,6 +51,27 @@ body {
   /* background-color: aqua; */
 }
 
+.header-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-theme-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 5px;
+  border: 1px solid var(--text-color);
+}
+
+.header-theme-icon-hide {
+  display: none;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -335,6 +356,11 @@ body {
     color: var(--input-bg-color);
     font-size: 1.1rem;
     font-weight: bold;
+  }
+
+  .form-error-message {
+    color: rgb(250, 111, 111);
+    font-size: 0.8rem;
   }
 
   button:hover {

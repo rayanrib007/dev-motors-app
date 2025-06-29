@@ -21,14 +21,26 @@
         <a href="/" class="nav-logo">
           <span>Dev Motors</span>
         </a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li><a href="/">HOME</a></li>
-            <li><a href="/#about">SOBRE</a></li>
-            <li><a href="/#services">SERVIÇOS</a></li>
-            <li><a href="/#contact">CONTATO</a></li>
-          </ul>
-        </nav>
+        <div class="header-content">
+         <div class="header-theme-icon light-theme-icon header-theme-icon-hide">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+              <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1. 414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+            </svg>
+          </div>
+          <div class="header-theme-icon dark-theme-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+              <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+            </svg>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li><a href="/">HOME</a></li>
+              <li><a href="/#about">SOBRE</a></li>
+              <li><a href="/#services">SERVIÇOS</a></li>
+              <li><a href="/#contact">CONTATO</a></li>
+            </ul>
+          </nav>
+        </div>
         <div class="menu-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,9 +66,6 @@
         </div>
         <ul class="mobile-menu-list">
           <li><a href="/">Home</a></li>
-          <li><a href="/#about">Sobre</a></li>
-          <li><a href="/#services">Serviços</a></li>
-          <li><a href="/#contact">Contato</a></li>
           <li><a href="/pages/preventive-maintenance/">Manutenção preventiva</a></li>
           <li><a href="/pages/oil-change">Troca de óleo</a></li>
           <li><a href="/pages/alignment/">Alinhamento</a></li>
@@ -73,7 +82,28 @@
           <li><a href="/pages/tire-change/">Troca de pneus</a></li>
         </ul>
       </nav>
+      <section class="hero">
+        <div class="hero-contentBanner">
+          <img class="hero-image" src="../../images/img3.jpg" alt="Manutenção automotiva" />
+          <div class="hero-container">
+              <h1 class="hero-title">Manutenção preventiva</h1>
+              <a class="hero-button"> Saiba mais</a>
+           </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about-content">
+          <h2 id="about">Manutenção preventiva</h2>
+          <p>A manutenção preventiva é uma maneira de manter o funcionamento dos veículos o mais próximo possível das condições originais. O intuito é fazer com que todo o funcionamento do carro seja conservado, em especial sua mecânica. Dessa forma, é possível prolongar a vida útil do automóvel, evitando problemas nos componentes.</p>
+        </div>
+        <div>
+          <img style="width: 100%;" src="../../images/img3.jpg" alt="Troca de óleo automotiva">
+        </div>
+      </section>
     </main>
+    <footer>
+      <p>&copy; 2025 Dev Motors - Manutenção automotiva. Todos os direitos reservados.</p>
+    </footer>
   </body>
   <script src="../../js/index.js" defer></script>
 </html>
